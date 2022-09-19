@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Web lab1</title>
+  <style>
+	body{
+	color: #FFFFFF;
+	margin: 0;
+	}
+	 header{
+	 background: #008000;
+	 padding: 10px;
+	}
+	aside { 
+     float: right;
+    width: 30px;
+    }
+   article {
+    background: #000080;
+	/*position: absolute;*/	
+	margin-left: 30%;
+	margin-right: 30%;	
+	padding: 20px;
+	font-family: Arial, sans-serif;
+   }
+   footer{
+    background: #008000;
+	padding: 10px;
+	clear: both;
+   }
+   table {
+   border: 1px solid white;
+  }
+   td {
+  padding: 5px 10px; 
+  text-align:center;
+  border: solid 1px white; 
+   }
+   
+   .layer1 {
+    float: left; /* Обтекание по правому краю */
+    background: #fd0; /* Цвет фона */
+    border: 1px solid black; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+    margin-right: 20px; /* Отступ справа */
+    width: 40%; /* Ширина блока */
+   }
+   .layer2 {
+	float: right; /* Обтекание по правому краю */
+    
+   }
+   .rightpic {
+    float: right; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+   }
+  </style>
+ </head> 
+ <body>
+  <header>
+    <div align="center">Hello, Header!</div>
+  </header>
+  <article>
+    <h2><font face="arial">Hello, content!</font></h2>
+    <p>  <img src="Image1.png" alt = "Картинка" align="left">
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+	Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+	when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+	It has survived not only five centuries, but also the leap into electronic typesetting,
+	remaining essentially unchanged. It was popularised in the 1960s with
+	the release of Letraset sheets containing Lorem Ipsum passages,
+	and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	</p>
+	<div align="center"><a href="http://www.csd.tsu.ru/"><font color="#ff0000">www.csd.tsu.ru</font></a></div>
+	 <h2><font face="arial" color="#ff0000">Here </font>  is  the  list</h2>
+	<ul style="list-style-type:disc">
+	<li>Value 1</li>
+	<li><font color="#00FFFF">V a l u e 2 </font></li>
+	<li>Value 3</li>
+	</ul>
+	 
+	<h3> Here  a  some  visual  styles:</h3>
+	
+
+	 <table class = "layer2">
+	 <tr>
+                <td rowspan="2" style="background-color:green">1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td colspan="2" style="background-color:red">7</td>
+            </tr>
+      </table>		
+	<div>
+	 <p><i>Italic</i>
+	 <p><b>Bold</b>
+	 <p><u>UnderLined</u>	 
+	</div>	
+<img src="images.png" align="right">	 
+	 <p><s>Line Through</s>
+	
+	
+	
+	 
+  </article>
+  <footer>
+   <div align="center">Hello, footer!</div>
+  </footer>
+ </body> 
+</html>
